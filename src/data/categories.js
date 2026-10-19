@@ -1,0 +1,15 @@
+export const categories = [
+  ['Birthday Cakes', 'Joyful centrepieces for your next celebration.', 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=900&q=85'],
+  ['Chocolate Cakes', 'Rich, celebratory layers for chocolate lovers.', 'https://images.unsplash.com/photo-1575377427642-087cf684f39d?auto=format&fit=crop&w=900&q=85'],
+  ['Black Forest Cakes', 'A timeless favourite with an elegant finish.', 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=900&q=85'],
+  ['White Forest Cakes', 'Soft, light and beautifully finished.', 'https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=900&q=85'],
+  ['Red Velvet Cakes', 'A striking red velvet idea for special moments.', 'https://images.unsplash.com/photo-1586788680434-30d324b2d46f?auto=format&fit=crop&w=900&q=85'],
+  ['Photo Cakes', 'Make your celebration personal with a favourite photo.', 'https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=900&q=85'],
+  ['Theme Cakes', 'Playful, thoughtful designs made for your occasion.', 'https://images.unsplash.com/photo-1558239532-2e76f7bb7d5e?auto=format&fit=crop&w=900&q=85'],
+  ['Wedding Cakes', 'An elegant centrepiece for your beautiful day.', 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=85'],
+  ['Anniversary Cakes', 'Mark another wonderful chapter together.', 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=900&q=85'],
+  ["Kids' Cakes", 'Colourful ideas for little celebrations.', 'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?auto=format&fit=crop&w=900&q=85'],
+  ['Cupcakes', 'Little boxes of joy for sharing or gifting.', 'https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=900&q=85'],
+  ['Brownies & Desserts', 'A sweet spread for every kind of gathering.', 'https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=900&q=85'],
+  ['Custom Cakes', 'Bring your idea and let’s plan something special.', 'https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85'],
+].map(([name, description, image]) => ({ name, description, image }));
